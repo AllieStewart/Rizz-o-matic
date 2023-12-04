@@ -1,0 +1,52 @@
+[
+    {
+      "username": "Matt Jones",
+      "email": "mjonesy@yahoo.com",
+      "password": "password01"
+    },
+    {
+      "username": "Ronald Sterling",
+      "email": "ronsterling@gmail.com",
+      "password": "password02"
+    },
+    {
+      "username": "L33tSp34k4r",
+      "email": "2002kid@outlook.express.com",
+      "password": "password03"
+    },
+    {
+      "username": "Mary Keegan",
+      "email": "mk9413@yahoo.com",
+      "password": "password04"
+    },
+    {
+      "username": "Bruce Wayne",
+      "email": "notbatman@2rich4you.gov",
+      "password": "password05"
+    },
+    {
+      "username": "Rory Fiddlesticks",
+      "email": "fiddlerory@gmail.com",
+      "password": "password06"
+    },
+    {
+      "username": "ChatsALot",
+      "email": "walkytalky@chatty.org",
+      "password": "password07"
+    },
+    {
+      "username": "Pamela Fitzgerald",
+      "email": "pamonthefitz@yahoo.com",
+      "password": "password08"
+    },
+    {
+      "username": "Don Juan",
+      "email": "thedonjuan@gmail.com",
+      "password": "password09"
+    },
+    {
+      "username": "Beth Gorginsky",
+      "email": "bethyg42@outlook.com",
+      "password": "password10"
+    }
+  ]
