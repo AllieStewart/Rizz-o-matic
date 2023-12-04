@@ -36,7 +36,7 @@ const typeDefs = `
     posts(username: String): [Post]
     post(postId: ID!): Post
     me: User
-    generateRizzQuote: String
+    generateRizz: String
   }
 
   # Mutation type
