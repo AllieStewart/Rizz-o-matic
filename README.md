@@ -26,10 +26,10 @@ and uploaded to Heroku. </br>
 </br>
 
 ---More to be added later---
--Testing
--Website homepage
--Website generator
--MongoDB data
+-Testing </br>
+-Website homepage </br>
+-Website generator </br>
+-MongoDB data </br>
 
 ## Usage
 Simply click on the link and watch the magic happen. </br>  
@@ -39,7 +39,7 @@ Link to the website: --- </br>
 ---Insert stuff here---
 
 ## Credits
-Made by 
+Made by </br>
 Luis Monroy: https://github.com/Lou2362 </br>
 Laith Khireiwish: https://github.com/vincula1 </br>
 Allie Stewart: https://github.com/AllieStewart </br>
