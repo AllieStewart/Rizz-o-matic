@@ -2,7 +2,7 @@
 // Would configure model exports here.
 
 const User = require('./User');
-const Thought = require('./Thought');
-module.exports = { User, Thought };
+const Post = require('./Post');
+module.exports = { User, Post };
 
 // End of JS file
