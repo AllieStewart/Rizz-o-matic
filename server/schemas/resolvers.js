@@ -6,8 +6,8 @@ const { generateRizzQuote } = require('../utils/openaiService');
 
 const resolvers = {
   Query: {
-    generateRizzQuote: async () => {
-      return await generateRizzQuote();
+    generateRizz: async () => {
+      return await generateRizz();
     },
     users: async () => {
       return User.find().populate('posts');

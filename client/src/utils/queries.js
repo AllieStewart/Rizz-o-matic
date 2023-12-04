@@ -2,6 +2,13 @@
 import { gql } from '@apollo/client';
 // Define query functions here for GraphQL
 
+export const QUERY_RIZZ_QUOTE = gql`
+  query generateRizz {
+    generateRizz
+  }
+`;
+
+
 export const QUERY_USER = gql`
   query user($username: String!) {
     user(username: $username) {
