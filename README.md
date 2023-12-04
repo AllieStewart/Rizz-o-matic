@@ -19,7 +19,17 @@ and comment on. Created with MERN architecture, Bootstap CSS, </br>
 and uploaded to Heroku. </br>
 
 ## Screenshots
----Insert stuff here---
+---Starter Wireframes--- </br>
+![Alt text](z_screens/Wireframe1.jpg)
+
+![Alt text](z_screens/Wireframe2.jpg)
+</br>
+
+---More to be added later---
+-Testing
+-Website homepage
+-Website generator
+-MongoDB data
 
 ## Usage
 Simply click on the link and watch the magic happen. </br>  
@@ -29,7 +39,12 @@ Link to the website: --- </br>
 ---Insert stuff here---
 
 ## Credits
-Made by Luis Monroy, Laith Khireiwish, and Allie Stewart. </br>
+Made by 
+Luis Monroy: https://github.com/Lou2362 </br>
+Laith Khireiwish: https://github.com/vincula1 </br>
+Allie Stewart: https://github.com/AllieStewart </br>
+</br>
+
 
 ## Licenses
 Please refer to the LICENSE in the repository. </br>
