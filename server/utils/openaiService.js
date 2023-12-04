@@ -2,7 +2,7 @@
 
 const { OpenAI } = require('openai');
 
-process.env.OPENAI_API_KEY = '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';
+process.env.OPENAI_API_KEY = 'put API key here';
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
 async function generateRizz() {
