@@ -1,8 +1,5 @@
-// Start of JS file
-// Need to edit model definitions (only after models are created),
-// as well as Auth, Query, Mutation.
 const typeDefs = `
-// Model type definitions go here
+  # Model type definitions
   type User {
     _id: ID
     username: String
@@ -25,23 +22,25 @@ const typeDefs = `
     commentAuthor: String
     createdAt: String
   }
-// Authentication
+
+  # Authentication
   type Auth {
     token: ID!
     user: User
   }
 
+  # Combined Query type
   type Query {
-    // Queries and relationships through queries go here
     users: [User]
     user(username: String!): User
     posts(username: String): [Post]
     post(postId: ID!): Post
     me: User
+    generateRizzQuote: String
   }
 
+  # Mutation type
   type Mutation {
-    // functions go here
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     addPost(postText: String!): Post

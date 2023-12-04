@@ -1,11 +1,12 @@
-// Start of JS file
-// Replace models with correct ones
 const { User, Post } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
+const { generateRizzQuote } = require('../utils/openaiService');
 
 const resolvers = {
-  // Query returns for GraphQL go here
   Query: {
+    generateRizzQuote: async () => {
+      return await generateRizzQuote();
+    },
     users: async () => {
       return User.find().populate('posts');
     },
@@ -27,7 +28,6 @@ const resolvers = {
     },
   },
 
-  // Function definitions go here
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
@@ -122,4 +122,3 @@ const resolvers = {
 };
 
 module.exports = resolvers;
-// End of JS file
