@@ -1,5 +1,6 @@
 // Start of JS file
-// Date formatting for timestamps if need be.
+// Date formatting for timestamps, especially for 'createdAt'
+// in Post/Comment model.
 const addDateSuffix = (date) => {
   let dateStr = date.toString();
 

@@ -1,6 +1,5 @@
 // Start of JS file
-// Need to edit model definitions (only after models are created),
-// as well as Auth, Query, Mutation.
+// Model, Auth, Query, and Mutation definitions here.
 const typeDefs = `
 // Model type definitions go here
   type User {
@@ -52,3 +51,4 @@ const typeDefs = `
 `;
 
 module.exports = typeDefs;
+// End of JS file

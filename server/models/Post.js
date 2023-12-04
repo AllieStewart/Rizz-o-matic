@@ -1,3 +1,5 @@
+// Start of JS file
+// Post schema and Comments schema for Post model.
 const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
@@ -43,3 +45,4 @@ const postSchema = new Schema({
 const Post = model('Post', postSchema);
 
 module.exports = Post;
+// End of JS file
