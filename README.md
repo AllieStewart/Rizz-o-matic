@@ -25,7 +25,7 @@ and uploaded to Heroku. </br>
 ![Alt text](z_screens/Wireframe2.jpg)
 </br>
 
----More to be added later---
+---More to be added later--- </br>
 -Testing </br>
 -Website homepage </br>
 -Website generator </br>
