@@ -1,3 +1,5 @@
+// Start of JS file
+// Model, Auth, Query, and Mutation definitions here.
 const typeDefs = `
   # Model type definitions
   type User {
@@ -51,3 +53,4 @@ const typeDefs = `
 `;
 
 module.exports = typeDefs;
+// End of JS file

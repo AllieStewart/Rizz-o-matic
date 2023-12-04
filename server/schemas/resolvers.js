@@ -1,3 +1,5 @@
+// Start of JS file
+// Resolvers for models, through Query and Mutation definitions.
 const { User, Post } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
 const { generateRizzQuote } = require('../utils/openaiService');
@@ -122,3 +124,4 @@ const resolvers = {
 };
 
 module.exports = resolvers;
+// End of JS file

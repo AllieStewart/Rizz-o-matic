@@ -1,5 +1,5 @@
 // config/connection.js
-process.env.MONGO_URI = 'mongodb+srv://root:root123@cluster0.guvmddf.mongodb.net/?retryWrites=true&w=majority';
+process.env.MONGO_URI = 'put your mongoDB connection string here';
 require('dotenv').config();
 const mongoose = require('mongoose');
 
@@ -11,6 +11,7 @@ const connectDB = async () => {
       useUnifiedTopology: true
       // Removed useFindAndModify and useCreateIndex
     });
+// mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/programming-thoughts');
 
     console.log(`MongoDB Connected: ${mongoose.connection.host}`);
   } catch (err) {
