@@ -1,6 +1,6 @@
 // Start of JS file
-// Change models to correct ones,
-// add new seed .json files separately
+// Seed file to create collections in MongoDB,
+// based off of models and <model>Seeds.json files.
 const db = require('../config/connection');
 const { User, Post } = require('../models');
 const userSeeds = require('./userSeeds.json');
