@@ -1,3 +1,6 @@
+// Start of JS file
+// User schema for User model.
+// Includes password bcrypt package for hashing.
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 
@@ -43,3 +46,4 @@ userSchema.methods.isCorrectPassword = async function (password) {
 const User = model('User', userSchema);
 
 module.exports = User;
+// End of JS file

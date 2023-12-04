@@ -1,6 +1,5 @@
 // Start of JS file
-// Would configure model exports here.
-
+// Model exports configured here.
 const User = require('./User');
 const Post = require('./Post');
 module.exports = { User, Post };

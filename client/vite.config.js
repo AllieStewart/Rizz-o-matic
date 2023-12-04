@@ -1,6 +1,6 @@
 // Start of JS file
-// Template VITE config file
-// Connects the frontend to the backend
+// VITE config file;
+// Connects the front-end to the back-end.
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 

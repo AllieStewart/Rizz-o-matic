@@ -1,5 +1,5 @@
 // Start of JS file
-// Replace models with correct ones
+// Resolvers for models, through Query and Mutation definitions.
 const { User, Post } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
 
