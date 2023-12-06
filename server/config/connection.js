@@ -11,7 +11,7 @@ const connectDB = async () => {
       useUnifiedTopology: true
       // Removed useFindAndModify and useCreateIndex
     });
-// mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/programming-thoughts');
+// mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/test');
 
     console.log(`MongoDB Connected: ${mongoose.connection.host}`);
   } catch (err) {
