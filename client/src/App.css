@@ -5,6 +5,35 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+  /* Changed color here */
+ :root {
+  --powder-blue: #a4b0f5ff;
+  --savoy-blue: #5b6ebfff;
+  --vivid-sky-blue: #56d2f8ff;
+  --dodger-blue: #0091ffff;
+  --byzantine-blue: #3454d1ff;
+  --space-cadet: #292e4fff;
+  --vista-blue: #7d8fddff;
+  --ultra-violet: #625184ff;
+  --lapis-lazuli: #0261a9ff;
+  --bleu-de-france: #4b87d5ff;
+ }
+
+ /* Changed color here */
+ header {
+  background-color: var(--lapis-lazuli);
+ }
+
+ /* Changed color here */
+ .single-card {
+  background-color: var(--savoy-blue);
+ }
+
+ /* Changed color here */
+ .comment-card {
+  background-color: var(--savoy-blue);
+ }
+
  html {
     line-height: 1.15;
     /* 1 */
@@ -17,15 +46,19 @@
   /**
    * Remove the margin in all browsers.
    */
+   /* Changed color here */
   body {
     margin: 0;
+    background-color: var(--powder-blue);
   }
   
   /**
    * Render the `main` element consistently in IE.
    */
+  /* Changed color here */
   main {
     display: block;
+    background-color: var(--powder-blue);
   }
   
   /**
@@ -1011,8 +1044,9 @@
     text-align: center;
   }
   
+   /* Changed color here */
   .btn.btn-primary {
-    background-color: #2d3e50;
+    background-color: var(--savoy-blue);
     color: #d9e9e8;
   }
   
@@ -1088,10 +1122,11 @@
     margin-bottom: 1rem;
   }
   
+  /* Changed color here */
   .card .card-header {
     padding: 0.375rem;
-    background-color: #2d3e50;
-    color: #d9e9e8;
+    background-color: var(--savoy-blue);
+    color: #ffffff;
   }
   
   .card .card-body {
