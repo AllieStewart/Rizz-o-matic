@@ -12,6 +12,31 @@
   // implement ChatGPT API generation here!!!
   // Save post = new posttt
 
+  const TypingEffect = ({ text, onTypingDone }) => {
+    const [displayedText, setDisplayedText] = useState('');
+    
+    useEffect(() => {
+      if(text === '') {
+        setDisplayedText(''); // Clear previous text
+        return;
+      }
+  
+      let index = 0;
+      const timeoutId = setInterval(() => {
+        setDisplayedText((prev) => prev + text.charAt(index));
+        index++;
+        if (index === text.length) {
+          clearInterval(timeoutId);
+          if(onTypingDone) onTypingDone(); // Notify when typing is done
+        }
+      }, 50); // The speed of typing, in milliseconds.
+    
+      return () => clearInterval(timeoutId); // Cleanup on component unmount.
+    }, [text, onTypingDone]);
+    
+    return <span>{displayedText}</span>;
+  };
+
   const PostGenerator = () => {
     const [postText, setPostText] = useState('');
     const [generatedQuote, setGeneratedQuote] = useState('');
@@ -39,7 +64,13 @@
         
         if (contentType.includes('application/json')) {
           const data = await response.json();
-          setPostText(data.quote);
+          const quote = data.quote;
+          setPostText(''); // Clear the textarea first
+          for (let i = 0; i <= quote.length; i++) {
+            setTimeout(() => {
+              setPostText(quote.slice(0, i));
+            }, i * 50); // Typing speed
+          }
         } else {
           const text = await response.text();
           console.error('Received non-JSON response:', text);
@@ -48,6 +79,12 @@
         console.error("Error generating quote:", error);
       }
     };
+
+    useEffect(() => {
+      if(generatedQuote !== '') {
+        setPostText(generatedQuote);
+      }
+    }, [generatedQuote]); 
     
 
     const handleFormSubmit = async (event) => {
@@ -109,6 +146,14 @@
           </>
         ) : (
           <>
+            <textarea
+              name="postText"
+              placeholder="Here's a new post..."
+              value={postText}
+              className="form-input w-100"
+              style={{ lineHeight: '1.5', resize: 'vertical' }}
+              onChange={handleChange}
+            ></textarea>
             <button
               type="button"
               id="generateButton"
@@ -117,6 +162,7 @@
             >
               Generate
             </button>
+            <TypingEffect text={generatedQuote} onTypingDone={() => {}} />
             <p>
               You need to be logged in to share your posts. Please <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
             </p>
