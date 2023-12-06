@@ -5,6 +5,8 @@ import { useQuery } from '@apollo/client';
 import PostList from '../components/PostList';
 import PostGenerator from '../components/PostGenerator';
 
+import TParticles from '../components/Particles';
+
 import { QUERY_POSTS } from '../utils/queries';
 
 const Home = () => {
@@ -13,6 +15,7 @@ const Home = () => {
 
   return (
     <main>
+      <TParticles />
       <div className="flex-row justify-center">
         <div
           className="col-12 col-md-10 mb-3 p-3"
