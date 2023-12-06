@@ -25,11 +25,28 @@ and uploaded to Heroku. </br>
 ![Alt text](z_screens/Wireframe2.jpg)
 </br>
 
+---Testing MongoDB--- </br>
+Seeding and connecting through the terminal: </br>
+![Alt text](z_screens/Mongo1.png)
+![Alt text](z_screens/Mongo2.png)
+</br>
+
+Seeing the new seeds on MongoDB: </br>
+![Alt text](z_screens/Mongo3.png)
+</br>
+
+Added new user from signup page: </br>
+![Alt text](z_screens/Mongo4.png)
+</br>
+
+---Testing GraphQL--- </br>
+![Alt text](z_screens/Query1.png)
+![Alt text](z_screens/Query2.png)
+</br>
+
 ---More to be added later--- </br>
--Testing </br>
 -Website homepage </br>
 -Website generator </br>
--MongoDB data </br>
 
 ## Usage
 Simply click on the link and watch the magic happen. </br>  
