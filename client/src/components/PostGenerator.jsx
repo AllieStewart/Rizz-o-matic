@@ -10,7 +10,7 @@
   import Auth from '../utils/auth';
 
   // implement ChatGPT API generation here!!!
-  // Save post = new post
+  // Save post = new posttt
 
   const PostGenerator = () => {
     const [postText, setPostText] = useState('');
