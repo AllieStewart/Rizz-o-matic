@@ -14,9 +14,8 @@ const Header = () => {
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <div>
           <Link className="text-light" to="/">
-            <h1 className="m-0">Rizz-O-Matic!</h1>
+              <img src="./src/assets/rizz_logo.png" height="120" width="450"/>
           </Link>
-          <p className="m-0">Wowza, we'll rizz you up, on God.</p>
         </div>
         <div>
           {Auth.loggedIn() ? (
