@@ -6,6 +6,8 @@ import { useQuery } from '@apollo/client';
 import PostGenerator from '../components/PostGenerator';
 import PostList from '../components/PostList';
 
+import TParticles from '../components/Particles';
+
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
 
 import Auth from '../utils/auth';
@@ -30,6 +32,7 @@ const Profile = () => {
   if (!user?.username) {
     return (
       <h4>
+        <TParticles />
         You need to be logged in to see this. Use the navigation links above to
         sign up or log in!
       </h4>
@@ -38,6 +41,7 @@ const Profile = () => {
 
   return (
     <div>
+      <TParticles />
       <div className="flex-row justify-center mb-3">
         <h2 className="col-12 col-md-10 bg-dark text-light p-3 mb-5">
           Viewing {userParam ? `${user.username}'s` : 'your'} profile.

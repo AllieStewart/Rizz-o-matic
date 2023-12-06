@@ -7,6 +7,8 @@ import { useQuery } from '@apollo/client';
 import CommentList from '../components/CommentList';
 import CommentForm from '../components/CommentForm';
 
+import TParticles from '../components/Particles';
+
 import { QUERY_SINGLE_POST } from '../utils/queries';
 
 const SinglePost = () => {
@@ -25,6 +27,7 @@ const SinglePost = () => {
   }
   return (
     <div className="my-3">
+      <TParticles />
       <h3 className="card-header single-card text-light p-2 m-0">
         {post.postAuthor} <br />
         <span style={{ fontSize: '1rem' }}>

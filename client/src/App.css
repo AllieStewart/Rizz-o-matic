@@ -58,7 +58,7 @@
   /* Changed color here */
   main {
     display: block;
-    background-color: var(--powder-blue);
+    background-color: transparent;
   }
   
   /**
