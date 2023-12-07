@@ -26,13 +26,24 @@
  }
 
  .rizzBox {
-  background-color: var(--savoy-blue);
   border-style: groove;
   border-color: var(--byzantine-blue);
   border-width: 5px;
   padding: 5%;
  }
 
+ .postBox {
+  border-style: groove;
+  border-color: var(--byzantine-blue);
+  border-width: 5px;
+ }
+
+ .profile-title {
+  background-color: var(--lapis-lazuli);
+  border-style: groove;
+  border-color: var(--byzantine-blue);
+  border-width: 5px;
+ }
  /* .generate-btn {
   
  }

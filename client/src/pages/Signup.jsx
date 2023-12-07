@@ -49,7 +49,7 @@ const Signup = () => {
       <div className="col-12 col-lg-10">
         <div className="card">
           <h4 className="card-header text-light p-2">Sign Up</h4>
-          <div className="card-body">
+          <div className="postBox card-body">
             {data ? (
               <p>
                 Success! You may now head{' '}
