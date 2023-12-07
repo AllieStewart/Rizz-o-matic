@@ -20,14 +20,17 @@
  }
 
  /* Changed color here */
- header {
-  background-color: var(--lapis-lazuli);
- }
-
- /* Changed color here */
  /* PostGenerator.jsx at bottom */
  .login-name, .signup-name {
   color: var(--vivid-sky-blue);
+ }
+
+ .rizzBox {
+  background-color: var(--savoy-blue);
+  border-style: groove;
+  border-color: var(--byzantine-blue);
+  border-width: 5px;
+  padding: 5%;
  }
 
  /* .generate-btn {
@@ -1039,10 +1042,11 @@
     padding: 0.5rem 1.2rem;
     margin: 0;
     font-size: 1.2rem;
+    border-color: var(--bleu-de-france);
   }
   
   .btn:hover {
-    background-color: #cecece;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px rgba(14, 13, 13, 0.25);
     color: #0d0d0d;
     outline: none;
@@ -1088,6 +1092,7 @@
     background-color: #ee8294;
   }
   
+  /* Changed color here */
   .btn.btn-info {
     background-color: #1bbc9b;
     color: #ffffff;

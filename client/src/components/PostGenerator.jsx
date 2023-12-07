@@ -111,7 +111,7 @@ const PostGenerator = () => {
   };
 
   return (
-    <div>
+    <div className='rizzBox'>
     <h3>Generate your Rizz here!</h3>
     {Auth.loggedIn() ? (
       <>
@@ -137,7 +137,7 @@ const PostGenerator = () => {
           </button>
           <TypingEffect text={generatedQuote} onTypingDone={() => {}} />
           
-          <button className="btn btn-primary save-btn" type="submit" onSubmit={handleFormSubmit}>
+          <button className="btn btn-primary save-btn mb-3" type="submit" onSubmit={handleFormSubmit}>
                   Save Post
                 </button>
                 {error && (

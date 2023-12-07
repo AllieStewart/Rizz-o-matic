@@ -8,7 +8,7 @@ const openai = new OpenAI(process.env.OPENAI_API_KEY);
 async function generateRizz() {
   try {
     const completion = await openai.chat.completions.create({
-      messages: [{ role: "system", content: "Give me a really witty pick up line" }],
+      messages: [{ role: "system", content: "Give me a new pick-up line every time" }],
       model: "gpt-3.5-turbo",
     });
 
