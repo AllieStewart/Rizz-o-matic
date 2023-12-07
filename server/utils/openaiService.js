@@ -9,7 +9,7 @@ const openai = new OpenAI(process.env.OPENAI_API_KEY);
 async function generateRizz() {
   try {
     const completion = await openai.chat.completions.create({
-      messages: [{ role: "system", content: "Give me a new pick-up line once at a time" }],
+      messages: [{ role: "system", content: "Give me a new pick-up line once every time" }],
       model: "gpt-3.5-turbo",
     });
 
