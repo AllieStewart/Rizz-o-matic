@@ -2,7 +2,11 @@
 
 const { OpenAI } = require('openai');
 
+<<<<<<< Updated upstream
 process.env.OPENAI_API_KEY = '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';
+=======
+process.env.OPENAI_API_KEY = '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';
+>>>>>>> Stashed changes
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
 async function generateRizz() {
@@ -21,4 +25,8 @@ async function generateRizz() {
 
 generateRizz().then(quote => console.log(quote));
 
+<<<<<<< Updated upstream
 module.exports = { generateRizz };
+=======
+module.exports = { generateRizz };
+>>>>>>> Stashed changes

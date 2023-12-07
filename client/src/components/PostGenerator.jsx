@@ -173,4 +173,8 @@
     
   };
 
+<<<<<<< Updated upstream
   export default PostGenerator;
+=======
+  export default PostGenerator;
+>>>>>>> Stashed changes
