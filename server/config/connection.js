@@ -1,5 +1,5 @@
 // config/connection.js
-process.env.MONGO_URI = 'put your mongoDB connection string here';
+process.env.MONGO_URI = 'put string here';
 require('dotenv').config();
 const mongoose = require('mongoose');
 

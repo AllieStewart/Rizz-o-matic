@@ -28,13 +28,13 @@ const SinglePost = () => {
   return (
     <div className="my-3">
       <TParticles />
-      <h3 className="card-header single-card text-light p-2 m-0">
+      <h3 className="postBox card-header single-card text-light p-2 m-0">
         {post.postAuthor} <br />
         <span style={{ fontSize: '1rem' }}>
           had this post on {post.createdAt}
         </span>
       </h3>
-      <div className="bg-light py-4">
+      <div className="postBox bg-light py-4">
         <blockquote
           className="p-4"
           style={{
