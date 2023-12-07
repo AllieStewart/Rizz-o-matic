@@ -131,13 +131,13 @@ const PostGenerator = () => {
             type="button"
             id="generateButton"
             onClick={handleGenerate}
-            className="btn btn-primary mb-3 generate-btn"
+            className="btn btn-primary mb-3"
           >
             Generate
           </button>
           <TypingEffect text={generatedQuote} onTypingDone={() => {}} />
           
-          <button className="btn btn-primary save-btn mb-3" type="submit" onSubmit={handleFormSubmit}>
+          <button className="btn btn-primary mb-3" type="submit" onSubmit={handleFormSubmit}>
                   Save Post
                 </button>
                 {error && (

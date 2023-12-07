@@ -80,7 +80,7 @@ const CommentForm = ({ postId }) => {
       ) : (
         <p>
           You need to be logged in to share your opinions. Please{' '}
-          <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
+          <Link to="/login" className='login-name'>login</Link> or <Link to="/signup" className='signup-name'>signup.</Link>
         </p>
       )}
     </div>
