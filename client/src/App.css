@@ -25,6 +25,20 @@
  }
 
  /* Changed color here */
+ /* PostGenerator.jsx at bottom */
+ .login-name, .signup-name {
+  color: var(--vivid-sky-blue);
+ }
+
+ /* .generate-btn {
+  
+ }
+
+ .save-btn {
+
+ } */
+
+ /* Changed color here */
  .single-card {
   background-color: var(--savoy-blue);
  }
@@ -1006,7 +1020,7 @@
   }
   
   .btn {
-    text-align: center;
+    /* text-align: center;
     display: inline-block;
     padding: 0.5rem 1.2rem;
     margin: 0;
@@ -1017,11 +1031,21 @@
     outline: none;
     color: #1a1a1a;
     background-color: #aeaeae;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; */
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    margin: 0;
+    font-size: 1.2rem;
   }
   
   .btn:hover {
     background-color: #cecece;
+    box-shadow: 0 4px 8px rgba(14, 13, 13, 0.25);
+    color: #0d0d0d;
+    outline: none;
   }
   
   .btn.btn-squared {
@@ -1050,8 +1074,9 @@
     color: #d9e9e8;
   }
   
+  /* Changed color here */
   .btn.btn-primary:hover {
-    background-color: #57779a;
+    background-color: var(--vista-blue);
   }
   
   .btn.btn-danger {

@@ -20,3 +20,5 @@ async function generateRizz() {
 }
 
 generateRizz().then(quote => console.log(quote));
+
+module.exports = { generateRizz };

@@ -1,6 +1,6 @@
 // Start of JS file
 // Main file for launching back-end responsibilities.
-require('dotenv').config();
+const { generateRizz } = require('./utils/openaiService');
 
 const express = require('express');
 const { ApolloServer } = require('@apollo/server');
@@ -36,6 +36,17 @@ const startApolloServer = async () => {
       res.sendFile(path.join(__dirname, '../client/dist/index.html'));
     });
   }
+
+  app.get('/generate-quote', async (req, res) => {
+    try {
+      const rizz = await generateRizz();
+      console.log('Generated Rizz:', rizz);
+      res.json({ quote: rizz });
+    } catch (error) {
+      console.error('Error in /generate-quote route:', error);
+      res.status(500).send(error.message);  
+    }
+  });
 
   db.once('open', () => {
     app.listen(PORT, () => {
