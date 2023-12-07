@@ -1,4 +1,5 @@
-// config/connection.js
+// Start of JS file
+// Config file for connecting to MongoDB
 process.env.MONGO_URI = 'put string here';
 require('dotenv').config();
 const mongoose = require('mongoose');
@@ -9,8 +10,8 @@ const connectDB = async () => {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
-      // Removed useFindAndModify and useCreateIndex
     });
+
 // mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/test');
 
     console.log(`MongoDB Connected: ${mongoose.connection.host}`);
@@ -20,7 +21,7 @@ const connectDB = async () => {
   }
 };
 
-connectDB(); // Call connectDB
+connectDB();
 
-// Export the connection object
 module.exports = mongoose.connection;
+// End of JS file

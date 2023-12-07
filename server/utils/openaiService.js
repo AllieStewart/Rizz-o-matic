@@ -1,5 +1,6 @@
-// Generate rizz function, only returns the quote
-
+// Start of JS file
+// Generate rizz function, only returns the quote;
+// connects to ChatGPT API.
 const { OpenAI } = require('openai');
 
 process.env.OPENAI_API_KEY = 'put API key here';
@@ -22,3 +23,4 @@ async function generateRizz() {
 generateRizz().then(quote => console.log(quote));
 
 module.exports = { generateRizz };
+// End of JS file

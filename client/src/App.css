@@ -20,11 +20,27 @@
  }
 
  /* Changed color here */
- /* PostGenerator.jsx at bottom */
+ /* Header.jsx */
+ .btn-faq {
+  border-style: groove;
+  border-width: 1px;
+ }
+
+ /* Changed color here */
+ /* Header.jsx */
+ .btn-login {
+  border-style: groove;
+  border-width: 1px;
+ }
+
+ /* Changed color here */
+ /* PostGenerator.jsx at bottom + CommentForm.jsx + Home.jsx*/
  .login-name, .signup-name {
   color: var(--vivid-sky-blue);
  }
 
+ /* Changed color here */
+ /* Home.jsx */
  .rizzBox {
   border-style: groove;
   border-color: var(--byzantine-blue);
@@ -32,25 +48,20 @@
   padding: 5%;
  }
 
+ /* Changed color here */
  .postBox {
   border-style: groove;
   border-color: var(--byzantine-blue);
   border-width: 5px;
  }
 
+ /* Changed color here */
  .profile-title {
   background-color: var(--lapis-lazuli);
   border-style: groove;
   border-color: var(--byzantine-blue);
   border-width: 5px;
  }
- /* .generate-btn {
-  
- }
-
- .save-btn {
-
- } */
 
  /* Changed color here */
  .single-card {
@@ -1034,18 +1045,6 @@
   }
   
   .btn {
-    /* text-align: center;
-    display: inline-block;
-    padding: 0.5rem 1.2rem;
-    margin: 0;
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 0.3rem;
-    border: 1px solid transparent;
-    outline: none;
-    color: #1a1a1a;
-    background-color: #aeaeae;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; */
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

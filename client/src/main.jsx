@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import SinglePost from './pages/SinglePost';
 import Profile from './pages/Profile';
 import ErrorPage from './pages/ErrorPage';
+import FAQ from './pages/FAQPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,9 @@ const router = createBrowserRouter([
       }, {
         path: '/posts/:postId',
         element: <SinglePost />
+      }, {
+        path: '/faq',
+        element: <FAQ />
       }
     ]
   },
