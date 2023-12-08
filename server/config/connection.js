@@ -1,7 +1,7 @@
 // Start of JS file
 // Config file for connecting to MongoDB
+
 mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/test');
-require('dotenv').config();
 const mongoose = require('mongoose');
 
 const connectDB = async () => {

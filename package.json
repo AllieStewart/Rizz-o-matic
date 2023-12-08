@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.0",
-    "react-scripts": "latest"
+    "concurrently": "^8.2.0"
   }
 }
