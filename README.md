@@ -7,6 +7,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
+- [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [What We Have Learned](#what-we-have-learned)
@@ -32,6 +33,27 @@ Back-End: </br>
     - Express.js </br>
     - Node.js </br>
     - ChatGPT API (openAI) </br>
+
+## Installation
+
+Clone the Repository:
+
+1. **First, clone the repository to your local machine using Git**
+git clone [repository URL](https://github.com/AllieStewart/Rizz-o-matic)
+
+Navigate into the project directory:
+cd [Rizz-o-matic]
+
+2. **Install dependencies**
+npm install
+
+3. **Seed the database**
+npm run seed
+
+4. **Run the Application**
+Finally, start the application in development mode:
+npm run dev
+
 
 ## Screenshots
 ---Starter Wireframes--- </br>
