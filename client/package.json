@@ -9,7 +9,7 @@
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "start": "vite",
-        "postinstall": "cd client && npm install && run build"
+        "postinstall": "cd /client && npm install && run build"
     },
     "dependencies": {
         "@apollo/client": "^3.7.14",
