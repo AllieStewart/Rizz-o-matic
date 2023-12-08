@@ -3,7 +3,6 @@
 // connects to ChatGPT API.
 const { OpenAI } = require('openai');
 
-process.env.OPENAI_API_KEY = OPENAI_API_KEY;
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
 async function generateRizz() {
