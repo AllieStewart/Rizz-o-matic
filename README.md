@@ -108,7 +108,6 @@ adding a typing animation for the 'rizz generator' to use for a cool effect. </b
 
 ## Credits
 Made by </br>
-Luis Monroy: https://github.com/Lou2362 </br>
 Laith Khireiwish: https://github.com/vincula1 </br>
 Allie Stewart: https://github.com/AllieStewart </br>
 </br>
