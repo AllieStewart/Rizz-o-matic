@@ -8,7 +8,7 @@
     "npm": "9.8.1"
   },
   "scripts": {
-    "start": "vite --port $ PORT",
+    "start": "node server/server.js",
     "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
