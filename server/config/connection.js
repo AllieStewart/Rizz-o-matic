@@ -6,8 +6,8 @@ mongoose.connect(process.env.MONGO_DB_URI || 'mongodb://127.0.0.1:27017/test');
 
 const connectDB = async () => {
   try {
-    console.log('Mongo URI: ', process.env.MONGO_URI);
-    await mongoose.connect(process.env.MONGO_URI, {
+    console.log('Mongo URI: ', process.env.MONGO_DB_URI);
+    await mongoose.connect(process.env.MONGO_DB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
