@@ -13,8 +13,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build",
-    "postinstall": "cd client && npm install && run build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "postinstall": "cd client && npm install && npm run build",
+    "heroku-postbuild": "npm run postinstall"
   },
   "keywords": [],
   "author": "",
