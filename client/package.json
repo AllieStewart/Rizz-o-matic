@@ -9,7 +9,6 @@
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "postinstall": "npm run dev",
-        "install": "npm i --prefix ... --production=false",
         "start": "serve dist"
     },
     "dependencies": {
