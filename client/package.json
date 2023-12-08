@@ -9,8 +9,8 @@
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "postinstall": "npm run dev",
-        "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
-        "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;"
+        "heroku-prebuild": "npm install --only=dev --dev",
+        "heroku-postbuild": "npm install --production=false"
     },
     "dependencies": {
         "@apollo/client": "^3.7.14",
