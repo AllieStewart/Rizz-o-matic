@@ -7,6 +7,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
+- [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [What We Have Learned](#what-we-have-learned)
