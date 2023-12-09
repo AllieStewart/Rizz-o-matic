@@ -35,31 +35,32 @@ Front-End: </br>
     - React JS </br>
     - Vite </br>
     - Bootstrap 5 CSS </br>
-    - Base CSS </br>
+    - CSS </br>
     - tsParticles </br>
 
 Back-End: </br>
     - MongoDB </br>
     - Express.js </br>
     - Node.js </br>
+    - ApolloServer/GraphQL </br>
     - ChatGPT API (openAI) </br>
 
 ## Installation
-Clone the Repository:
+How to install:
 
-1. **First, clone the repository to your local machine using Git**
+1. **First, clone the repository to your local machine using Git** </br>
 git clone [repository URL](https://github.com/AllieStewart/Rizz-o-matic)
 
-2. **Navigate into the project directory**
+2. **Navigate into the project directory.** </br>
 cd Rizz-o-matic
 
-3. **Install dependencies**
+3. **Install dependencies.** </br>
 npm install
 
-4. **Seed the database**
+4. **Seed the database.** </br>
 npm run seed
 
-5. **Run the Application**
+5. **Run the Application.** </br>
 npm run dev
 
 ## Screenshots
@@ -124,7 +125,7 @@ Added new user from signup page: </br>
 
 ## Usage
 Simply click on the link and watch the magic happen. </br>  
-Link to the website: https://rizz-o-matic-proj3-f61a0e80f0f7.herokuapp.com </br>
+Link to the website: https://rizz-o-matic-proj3-f61a0e80f0f7.herokuapp.com. </br>
 
 ## What We Have Learned
 We learned a lot about incorporating a MERN architecture into a group project scenario. </br>
@@ -149,7 +150,6 @@ mobile-friendly, make it an app to access instead. </br>
 ---Made by--- </br>
 Laith Khireiwish: https://github.com/vincula1 </br>
 Allie Stewart: https://github.com/AllieStewart </br>
-</br>
 
 ---Sources--- </br>
 SVG that displays in the browser tab is from https://www.svgrepo.com/svg/374033/razzle. </br>
@@ -158,6 +158,17 @@ SVG that displays in the browser tab is from https://www.svgrepo.com/svg/374033/
 https://logo.com/ with Vollkorn font and a gold metallic gradient. </br>
 
 TsParticles background is from https://getisotope.com/post/react-animated-background. </br>
+
+---Thanks--- </br>
+Huge thanks to Diem Ly, one of our amazing </br>
+TAs, and Leah Nelson (https://github.com/LeahNelson), our professor, </br>
+both from the University of Texas Coding Bootcamp program for fall 2023! </br>
+They provided so much assistance in getting our website to </br>
+launch on Heroku, and without them, we would never have been </br>
+able to get the Rizz-O-Matic up and running. </br>
+Especially Diem, who came up with the idea in the first place </br>
+for us to implement, and worked with us for 4 hours straight </br>
+on the last class day. ❤️ </br>
 
 ## Licenses
 Please refer to the LICENSE in the repository. </br>
