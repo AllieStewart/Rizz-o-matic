@@ -11,6 +11,7 @@
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [What We Have Learned](#what-we-have-learned)
+- [Future Developments](#future-developments)
 - [Credits](#credits)
 - [Licenses](#licenses)
 </br>
@@ -127,6 +128,20 @@ ChatGPT API, was a process. Express.js and Node.js are known </br>
 fairly well by this point. React was exciting to utilize in new ways, </br>
 such as implementing background particles through tsParticles, and </br>
 adding a typing animation for the 'rizz generator' to use for a cool effect. </br>
+
+## Future Developments
+As Rizz-O-Matic continues to grow, we have several exciting features and improvements lined up. </br> 
+Here's what you can look forward to in the future:
+
+- **Multimedia**: Incorporating seamless sharing capabilities with major social media platforms to </br>
+allow users to directly post their generated quotes, increasing the app's reach and user engagement.
+
+- **Community Expansion**: Transforming the app into a more community-focused and socially engaging </br>
+environment would be an excellent way to expand. Additions like a live global chat or a friends list could enhance this dynamic
+
+- **Phone App**: A mobile app could be developed to facilitate easier access, and as the platform evolves </br>
+into a more community-based application, the need for accessibility anywhere would increase, making it a wise choice to implement.
+
 
 ## Credits
 Made by </br>
