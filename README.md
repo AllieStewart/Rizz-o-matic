@@ -116,7 +116,7 @@ Added new user from signup page: </br>
 
 ## Usage
 Simply click on the link and watch the magic happen. </br>  
-Link to the website: --- </br>
+Link to the website: https://rizz-o-matic-proj3-f61a0e80f0f7.herokuapp.com </br>
 
 ## What We Have Learned
 We learned a lot about incorporating a MERN architecture </br>
@@ -134,7 +134,8 @@ Allie Stewart: https://github.com/AllieStewart </br>
 </br>
 SVG that displays in the browser tab is from https://www.svgrepo.com/svg/374033/razzle. </br>
 "Rizz-O-Matic" logo that displays on the top left of all pages is from </br>
-https://logo.com/ with Vollkorn font and a gold metallic gradient.
+https://logo.com/ with Vollkorn font and a gold metallic gradient. </br>
+TsParticles backgroun is from https://getisotope.com/post/react-animated-background </br>
 
 
 ## Licenses
