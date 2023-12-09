@@ -1,8 +1,17 @@
 # Rizz-o-matic
 
-## Badge
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-</br>
+## Badges
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MIT](https://img.shields.io/badge/Version-1.0-red.svg)
+![License: MIT](https://img.shields.io/badge/MongoDB-green.svg)
+![License: MIT](https://img.shields.io/badge/Express.js-grey.svg)
+![License: MIT](https://img.shields.io/badge/React-blue.svg)
+![License: MIT](https://img.shields.io/badge/Node.js-grey.svg)
+![License: MIT](https://img.shields.io/badge/Heroku-purple.svg)
+![License: MIT](https://img.shields.io/badge/Javascript-yellow.svg)
+![License: MIT](https://img.shields.io/badge/CSS-blue.svg)
+![License: MIT](https://img.shields.io/badge/ChatGPT-yellow.svg)
+![License: MIT](https://img.shields.io/badge/Vite-blue.svg)
 
 ## Table of Contents
 - [Description](#description)
@@ -11,6 +20,7 @@
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [What We Have Learned](#what-we-have-learned)
+- [Future Development](#future-development)
 - [Credits](#credits)
 - [Licenses](#licenses)
 </br>
@@ -117,24 +127,37 @@ Simply click on the link and watch the magic happen. </br>
 Link to the website: https://rizz-o-matic-proj3-f61a0e80f0f7.herokuapp.com </br>
 
 ## What We Have Learned
-We learned a lot about incorporating a MERN architecture </br>
-into a group project scenario. Configuring MongoDB to connect </br>
-through both front-end and back-end, along with GraphQL and our </br> 
-ChatGPT API, was a process. Express.js and Node.js are known </br>
-fairly well by this point. React was exciting to utilize in new ways, </br>
-such as implementing background particles through tsParticles, and </br>
-adding a typing animation for the 'rizz generator' to use for a cool effect. </br>
+We learned a lot about incorporating a MERN architecture into a group project scenario. </br>
+Configuring MongoDB to connect through both front-end and back-end, along with GraphQL </br>
+and our ChatGPT API, was a process. Express.js and Node.js are known fairly well by this point. </br>
+React was exciting to utilize in new ways, such as implementing background particles through tsParticles, </br>
+and adding a typing animation for the 'rizz generator' for a cool effect. </br>
+Heroku was finnicky about code order, build packs, and attaching dynos, but </br>
+it was eventually figured out with a lot of testing, rewriting, and repeating, </br>
+until the project finally worked in a web environment. </br>
+
+## Future Development
+Though we only had a week for development, and only two of us working on this project, </br>
+several ideas floated around about what we could improve on in the future. </br>
+We could expand the scope of the 'rizz' generator to other possible generators, </br>
+such as dating tips. We could incorporate sharing capabilities with social media platforms </br>
+for users to directly post/share their generated quotes. An on-site chat or friends list </br>
+could make the website more community-focused. We could adapt the site to be more </br>
+mobile-friendly, make it an app to access instead. </br>
 
 ## Credits
-Made by </br>
+---Made by--- </br>
 Laith Khireiwish: https://github.com/vincula1 </br>
 Allie Stewart: https://github.com/AllieStewart </br>
 </br>
+
+---Sources--- </br>
 SVG that displays in the browser tab is from https://www.svgrepo.com/svg/374033/razzle. </br>
+
 "Rizz-O-Matic" logo that displays on the top left of all pages is from </br>
 https://logo.com/ with Vollkorn font and a gold metallic gradient. </br>
-TsParticles backgroun is from https://getisotope.com/post/react-animated-background. </br>
 
+TsParticles background is from https://getisotope.com/post/react-animated-background. </br>
 
 ## Licenses
 Please refer to the LICENSE in the repository. </br>
