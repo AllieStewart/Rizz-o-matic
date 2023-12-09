@@ -35,7 +35,6 @@ Back-End: </br>
     - ChatGPT API (openAI) </br>
 
 ## Installation
-
 Clone the Repository:
 
 1. **First, clone the repository to your local machine using Git**
@@ -52,7 +51,6 @@ npm run seed
 
 5. **Run the Application**
 npm run dev
-
 
 ## Screenshots
 ---Starter Wireframes--- </br>
@@ -135,7 +133,7 @@ Allie Stewart: https://github.com/AllieStewart </br>
 SVG that displays in the browser tab is from https://www.svgrepo.com/svg/374033/razzle. </br>
 "Rizz-O-Matic" logo that displays on the top left of all pages is from </br>
 https://logo.com/ with Vollkorn font and a gold metallic gradient. </br>
-TsParticles backgroun is from https://getisotope.com/post/react-animated-background </br>
+TsParticles backgroun is from https://getisotope.com/post/react-animated-background. </br>
 
 
 ## Licenses
